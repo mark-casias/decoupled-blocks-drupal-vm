@@ -20,12 +20,10 @@ projects:
   devel: "1.x-dev"
   admin_toolbar: "1.14"
   page_manager: "1.0-alpha23"
-  page_manager_ui: "1.0-alpha23"
-  layout_manager: "1.0-alpha22"
+  layout: "1.x-dev"
   ctools: "3.0-alpha25"
   panels: "3.0-beta4"
   admin_toolbar: "1.14"
-  admin_toolbar_extra: "1.14"
   pdb:
     download:
       type: "git"
