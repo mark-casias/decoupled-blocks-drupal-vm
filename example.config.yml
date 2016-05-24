@@ -50,7 +50,7 @@ drupal_core_path: "/var/www/decoupled.dev/drupal"
 drupal_domain: "{{ vagrant_hostname }}"
 drupal_site_name: "Decoupled Blocks"
 drupal_install_profile: standard
-drupal_enable_modules: [ 'devel' ]
+drupal_enable_modules: [ 'devel', 'pdb', 'pdb_ng2', 'admin_toolbar_extra', 'panels', 'page_manager_ui' ]
 drupal_account_name: admin
 drupal_account_pass: admin
 drupal_mysql_user: drupal

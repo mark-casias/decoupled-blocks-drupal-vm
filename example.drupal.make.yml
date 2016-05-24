@@ -13,16 +13,20 @@ projects:
   drupal:
     type: "core"
     download:
-      # Drupal core branch (e.g. "6.x", "7.x", "8.0.x").
       branch: "8.1.x"
       working-copy: false
 
   # Other modules.
   devel: "1.x-dev"
   admin_toolbar: "1.14"
+  page_manager: "1.0-alpha23"
+  layout: "1.x-dev"
+  ctools: "3.0-alpha25"
+  panels: "3.0-beta4"
+  admin_toolbar: "1.14"
   pdb:
     download:
       type: "git"
-      url: "git://github.com/mrjmd/decoupled_blocks.git"
+      url: "git://github.com/mrjmd/pdb.git"
       branch: "8.x-1.x"
       working-copy: true
